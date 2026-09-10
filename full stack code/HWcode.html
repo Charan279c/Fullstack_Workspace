@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(17, 17, 17);
+            color: rgb(251, 249, 249);
+            height: 125px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 35px;
+            font-weight: bold;
+        }
+        h1{
+            margin:0%;
+            padding: 30px;
+        }
+        .nav{
+            background-color: #41413f;
+            color:white;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+            grid-column: 1fr 1fr 1fr;
+        }
+        .left-right{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .left{
+            background-color: #b8b5b5;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            border: 1px solid black;
+        }
+        .right{
+            background-color: #3e3c3c;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            border: 1px solid black;
+        }
+        .colors{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .blue{
+            background-color: blue;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            border: 1px solid black;
+        }
+        .red{
+            background-color:red;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            border: 1px solid black;
+        }
+        .green{
+            background-color:green;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            border: 1px solid black;
+        }
+        .yellow{
+            background-color:yellow;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            border: 1px solid black;
+        }
+        .boxes{
+            display:grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+        .box{
+            background-color: #a29d9d;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            border: 1px solid black;
+        }
+        footer{
+            background-color: #666454;
+            color: white;
+            height: auto;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+            border: 1px solid black;
+        }
+    </style>    
+</head>
+<body>
+    <header>
+       <h1>Header</h1> 
+    </header>   
+    <div class="nav">
+        <div>Home</div>
+        <div>About</div>
+        <div>Login</div>
+    </div>
+    <div class="left-right">
+        <div class="left">
+            Left
+        </div>
+        <div class="right">
+            Right
+        </div>
+    </div>
+    <div class="colors">
+        <div class="blue">
+            Blue
+        </div>
+        <div class="red">
+            Red
+        </div>
+        <div class="green">
+            Green
+        </div>
+        <div class="yellow">
+            Yellow
+        </div>
+    </div>
+    <div class="boxes">
+        <div class="box">
+            Box1
+        </div>
+        <div class="box">
+            Box2
+        </div>
+        <div class="box">
+            Box3
+        </div>
+        <div class="box">
+            Box4
+        </div>
+        <div class="box">
+            Box5
+        </div>
+    </div>
+    <footer> Footer </footer>
+</body>
+</html>
