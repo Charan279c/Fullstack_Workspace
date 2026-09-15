@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MENSLOOK - Static E-Commerce Website</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Header */
+
+.header{
+    background:#0a0c0f;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo{
+    color:rgb(250, 249, 249);
+    font-size:32px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:rgba(245, 190, 62, 0.679);
+}
+
+.search input[type=text]{
+    width:350px;
+    padding:10px;
+    font-size:16px;
+}
+
+.search input[type=submit]{
+    padding:10px 18px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.menu{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* Categories */
+
+.category{
+    background:#46535f;
+    display:flex;
+    justify-content:space-around;
+    padding:18px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.banner img{
+    width:100%;
+    height:auto;
+    margin-top:20px;
+}
+.featured{
+    background:#171819;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    padding:18px;
+    text-align:center;
+}
+.featured-products{
+    width:100%;
+    height: 300px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    padding:5px;
+    text-align:center;
+   
+}
+.card img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin-top:15px;
+}
+
+.price{
+    color:red;
+    font-size:26px;
+    margin:15px;
+}
+
+button{
+    background:#0D47A1;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#1976D2;
+}
+
+/* Offers */
+
+.offers{
+    background:#FFF176;
+    text-align:center;
+    padding:40px;
+}
+
+.offers h2{
+    color:red;
+    margin-bottom:20px;
+}
+
+/* Services */
+
+.services{
+    display:flex;
+    justify-content:space-around;
+    background:#E8F5E9;
+    padding:35px;
+    font-size:22px;
+}
+
+/* Footer */
+
+.footer{
+    background:#263238;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.footer h2{
+    margin-bottom:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+<div class="header">
+
+<div class="logo">
+MENS<span>LOOK</span>
+</div>
+
+<div class="search">
+
+<input type="text" placeholder="Search Products">
+
+<input type="submit" value="Search">
+
+</div>
+
+<div class="menu">
+
+Login |
+Register |
+Cart (0)
+
+</div>
+
+</div>
+
+<!-- Categories -->
+
+<div class="category">
+
+<div>Fashion</div>
+
+<div>Groceries</div>
+
+<div>Electronics</div>
+
+<div>Mobiles</div>
+
+<div>Appliances</div>
+
+<div>Beauty</div>
+
+<div>Books</div>
+
+<div>Sports</div>
+
+</div>
+<div class="banner">
+    <img src="https://omartfashion.com/cdn/shop/files/8C9DBDC1-8150-42A5-8B70-E91CD1AA28A4.png?v=1784562145&width=3840;">
+</div>
+<div class="featured"> 
+    <div > FEATURED PRODUCTS </div>
+</div>
+
+<div class="featured-products">
+    <div class="card">
+        <img src="https://www.mydesignation.com/cdn/shop/files/cosmic-canvas-shirt-mydesignation-2980094.jpg?v=1787943375&width=800;" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://images.meesho.com/images/products/1039518970/zas0k_512.webp?width=512;" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://www.flatshop.in/wp-content/uploads/2023/08/x0fjr_512-e1692770476473.webp" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>$39.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwf2897f2b/images/Titan/Catalog/1805NM02_1.jpg?sw=360&sh=360;" alt="Product 4">
+        <h3>Product 4</h3>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+<div class="offers">
+
+    <h2>Today's Special Offers</h2>
+
+    <p>🎉 Flat 20% Discount on Fashion Products</p>
+
+    <br>
+
+    <p>🚚 Free Delivery Above ₹999</p>
+
+    <br>
+
+    <p>🛍 Buy One Get One on Selected Products</p>
+
+    <br>
+
+    <p>💳 Extra Cashback on Electronics</p>
+
+</div>
+
+<!-- Customer Services -->
+
+<div class="services">
+
+    <div>↩ Easy Returns</div>
+
+    <div>📞 24 × 7 Support</div>
+
+    <div>🔒 Secure Payment</div>
+
+    <div>🚚 Fast Delivery</div>
+
+</div>
+
+<!-- Footer -->
+
+<div class="footer">
+
+    <h2>MENS LOOK</h2>
+
+    <p> 
+
+        Home |
+        Products |
+        About Us |
+        Contact Us |    
+        Help
+
+    </p>
+
+    <br>
+
+    <p>
+
+        Copyright © 2026 MENS LOOK. All Rights Reserved.
+
+    </p>
+
+</div>
+
+</body>
+</html>
